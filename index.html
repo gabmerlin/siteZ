@@ -5,22 +5,27 @@
 <!-- <strong> <em> <mark> servent uniquement a repertorier -->
 <!-- <mark> sert a marquer qql choses a moment T pour un utilisateur X, utiliser avec du javascript, setrt a dynamiser-->
 <!-- Les listes servent aussi a creer un menu ( <ul>/<ol> unordonned list| <li> List Item) -->
-
+<!-- <id=""> sert a creer une ancre chaque id doit comencer par une lettre et doit etre unique-->
+<!-- jpg divise par 10 le poids en general, le png gere bien la transparence, bmp tres lourd mais bien pris en charge par les navigateurs-->
+<!-- &nbsp faire un espace-->
 
 
 <html>
     <head>
-        <title>L'index de mon site</title>
+        <title>L'index de mon &lt;site&gt;</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="CSS/style.css">
    </head>
     <body>
-        <!-- LE COMMMMMMENTAIRE -->
-
         <h2><a href="millieu/page2.html" target="_blank">page2</a></h2>
         <H2><a href="millieu/page3.html">page3</a></H2>
         <h2><a href="millieu/sous/page4.html">page4</a></h2>
-        <h2><a id="Haut" href="#Test">Direct en bas mon pote mdr</a></h2>
-
+        <h2><a id="Haut" href="#Bas">Direct en bas mon pote mdr</a></h2>
+        <h2>envoyez moi <a href="mailto:gabriel.merlin.contact@gmail.com">un mail</a></h2>
+        <h2>mec <a href="Downloads/cyberpunk.jpg">telecharge ca</a></h2>
+            <hr>
+        <img width="500" src="Downloads/cyberpunk.jpg" alt="CYBERPUNK TROP COOL">
+            <hr>
         <h1>Titre de niveau 1</h1>
             <p>Un paragraphe <strong>super important</strong></p>
         <h2>Titre de niveau 2</h2>
@@ -81,7 +86,6 @@
                     </dl>
                 </li>
             </ol>
-        <h2><a id="Test" href="#Haut">pour gagner du temps</a></h2>
-
+        <h2><a id="Bas" href="#Haut">pour gagner du temps</a></h2>
     </body>
 </html>
