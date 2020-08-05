@@ -4,19 +4,39 @@
 
 
 
-
 body{
-    background-color: indigo;
+    background-color: rgb(238, 255, 0);
+    color: black;
 }
 p{
     color: red;
 }
-h1{
-    color: yellow;
+h1, h2, h3, h4, h5, h6{
+    color: white;
+    font-size: 40px;
+    font-style: oblique;
 }
 ol{
     color: green;
 }
 ul{
     color: darkblue;
+}
+/* <id="">*/
+#gm{
+    color: purple;
+}
+
+/* <class="">*/
+.gm{
+    color: rgb(9, 255, 0);
+}
+#mg{
+    font-weight: bold;
+}
+.block{
+    border: 1px solid black;
+}
+strong{
+    border: 1px solid black;
 }

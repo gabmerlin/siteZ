@@ -8,7 +8,8 @@
 <!-- <id=""> sert a creer une ancre chaque id doit comencer par une lettre et doit etre unique-->
 <!-- jpg divise par 10 le poids en general, le png gere bien la transparence, bmp tres lourd mais bien pris en charge par les navigateurs-->
 <!-- &nbsp faire un espace-->
-
+<!-- selecteur <class> peut etre reutiliser plusieurs fois et n'est pas obliger d'etre unique -->
+<!-- element block exemple : <p> element de type inline exemple <strong>-->
 
 <html>
     <head>
@@ -27,11 +28,11 @@
         <img width="500" src="Downloads/cyberpunk.jpg" alt="CYBERPUNK TROP COOL">
             <hr>
         <h1>Titre de niveau 1</h1>
-            <p>Un paragraphe <strong>super important</strong></p>
+            <p id="gm">Un paragraphe <strong>super important</strong></p>
         <h2>Titre de niveau 2</h2>
-            <p>Paragraphe du titre de niveau 2</p>
+            <p class="gm" id="mg">Paragraphe du titre de niveau 2</p>
         <h3>Titre de niveau 3</h3>
-            <p>Un paragraphe <em>moins important</em></p>
+            <p class="block">Un paragraphe <em>moins important</em></p>
         <h4>Titre de niveau 4</h4>
             <pre> <!-- ATTENTION A NE PAS TROP UTILISER ( aucune signification sementique en html)-->
             Je test simplement l'element pre 
