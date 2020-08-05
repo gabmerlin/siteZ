@@ -7,14 +7,24 @@ body{
     background-color: rgb(238, 255, 0);
     color: black;
     font-size: 17px;
+    text-align: center;
 }
 p{
     color: red;
+    text-shadow: -2px 1px 8px blue;
+}
+a{
+    text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6{
     color: white;
     font-size: 40px;
     font-style: oblique;
+    text-indent: -100px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 25px 25px 5px red;
+
 }
 ol{
     color: green;
