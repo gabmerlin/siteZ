@@ -1,0 +1,22 @@
+/* Google font permet de mettre des polices lu par la quasi totaliter des navigateurs*/
+
+
+
+
+body{
+    font-family: "Century Gothic", Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: chartreuse;
+    color: red;
+    font-size: 17px;
+}
+.div-para{
+    color:blueviolet;
+    background-color: crimson;
+}
+.span-test{
+    color: darkblue;
+}
+.A-lien{
+    color: deeppink;
+    background-color: green;
+}
