@@ -1,12 +1,59 @@
+/* 
+border-top-color
+border-bottom-width
+border-top-style ETC ETC
+*/
+
 body{
     background-color: hotpink;
     font-family: 'Red Rose', cursive;
     font-size: 25px;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    line-height: 15px;
 }
 .menu{
     font-size: 40px;
+    line-height: 30px;
 }
 h1{
     color:  rgba(255, 0, 0, 0.5);
     font-size: 75px;
+}
+.div1{
+    line-height: 25px;
+    letter-spacing: 5px;
+    background-color: red;
+    width: 500px;
+    height: 400px;
+    padding: 0px;
+    border: 20px dashed black;
+    margin: 0px;
+    border-radius: 25px;
+}
+.p1{
+    background-color: blue;
+    height: 110px;
+    width: 400px;
+    padding: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+    
+}
+.p2{
+    border-top: 15px solid firebrick;
+    border-left: 10px solid yellow;
+    border-right:  20px solid fuchsia;
+    border-bottom: 40px solid aqua;
+    border-radius: 15px;
+}
+.div2{
+    background-color: darkgreen;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 10px;
+    border: solid 4px purple;
+    margin: 10px;
 }
