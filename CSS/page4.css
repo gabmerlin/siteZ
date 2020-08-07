@@ -10,10 +10,10 @@ body{
     border: 20px ridge white;
     border-radius: 15px;
     padding: 60px 60px 60px 60px;
-    margin: auto;
+    box-shadow: 5px 5px 10px orangered;
 }
 .p1{
-    height 100px;
+    height: 100px;
     width: 200px;
     background-color: blue;
     border-width: 2px;
@@ -24,4 +24,5 @@ body{
     padding-top: 10px;
     padding-left: 25px;
     margin: 5px auto;
+    box-shadow: -5px -5px 10px yellow inset;
 }
