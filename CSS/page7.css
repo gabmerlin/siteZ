@@ -1,0 +1,16 @@
+body{
+    font-family: 'Red Rose', cursive;
+    color: rebeccapurple;
+    /*background-image: url("../Downloads/cyberpunk.jpg") /*, url(.....)*/;
+    /*background-size: 100% /*, 50%*/;
+    /*background-repeat:  /*, no repeat ...*/;
+    /*background-position: ;*/
+}
+.div1{
+    /*background: -webkit-linear-gradient(top left, red, orange, blue);
+    background: -o-linear-gradient(bottom right, red, orange, blue);
+    background: -moz-linear-gradient(bottom right, red, orange, blue);
+    Pour les anciennes versions de navigateur */
+    /*background: linear-gradient(180deg, red, orange, blue, yellow);*/
+    background: linear-gradient(rgba(0, 0, 255, 0.582), rgba(0, 0, 255, 0.247))
+}
