@@ -1,0 +1,36 @@
+/* Odd=impaire
+even=paire*/
+
+
+body{
+    font-family: 'Red Rose', cursive;
+}
+
+.tab1{
+    border-collapse: collapse;
+    float: right;
+}
+
+thead th, tfoot td{
+    background-color: green;
+    color: violet;
+    text-transform: uppercase;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th{
+    background-color: teal;
+    font-weight: normal;
+}
+
+tr:nth-child(even){
+    background-color: magenta;
+}
+
+tr:nth-child(odd){
+    background-color: yellow;
+}

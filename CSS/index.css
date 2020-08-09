@@ -50,3 +50,8 @@ ul{
 strong{
     border: 1px solid black;
 }
+
+.test2 {
+    display: flex;
+    flex-direction: column;
+}
