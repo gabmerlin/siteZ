@@ -10,3 +10,8 @@ td, th{
     border: 1px solid black;
     padding: 5px;
 }
+.img{
+    padding: 10px;
+    border: 1px solid green;
+    box-shadow: 0px 0px 20px indigo;
+}
